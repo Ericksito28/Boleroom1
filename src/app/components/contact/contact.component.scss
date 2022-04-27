@@ -1,0 +1,104 @@
+@import "../../../styles.scss";
+@import "../home/home.component.scss";
+.contact {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.email-phone_contianer {
+  span {
+    font-weight: bold;
+    color: $purple5;
+    font-family: Dosis1;
+  }
+
+  p {
+    margin: 30px;
+    font-family: Dosis1;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.logo-container {
+  h2 {
+    font-size: 60px;
+  }
+  i {
+    font-size: 60px;
+  }
+}
+
+.logo-container_footer {
+  p {
+    font-size: 26px;
+  }
+}
+.img-contact_cotnainer {
+  width: 100%;
+  img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo-container_footer {
+    width: 80%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .logo-container_footer {
+    p {
+      font-size: 20px;
+    }
+  }
+  .logo-container {
+    h2 {
+      font-size: 35px;
+    }
+    i {
+      font-size: 35px;
+    }
+  }
+  .email-phone_contianer {
+    span {
+      font-weight: bold;
+      color: $purple5;
+      font-family: Dosis1;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 30px;
+      font-size: 20px;
+    }
+  }
+
+  .email-phone_contianer {
+    span {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+  .sc-info {
+    flex-wrap: wrap;
+    > div {
+      width: 30px;
+      height: 30px;
+      margin: 15px;
+    }
+  }
+}
