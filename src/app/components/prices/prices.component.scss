@@ -4,11 +4,15 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 
   > div {
     width: 100%;
     display: flex;
     padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    // flex-wrap: wrap;
 
     > div:first-child {
       display: flex;
@@ -33,14 +37,12 @@
 
     > div:last-child {
       width: 40%;
-      // border: 4px solid green;
 
       img {
         width: 100%;
         display: block;
         object-fit: cover;
         height: 100%;
-        // border: 12px solid aqua;
       }
     }
   }
@@ -56,7 +58,6 @@
       > div {
         width: 100% !important ;
         align-items: center;
-        border: 2px solid aqua;
         margin: 0% !important ;
 
         h2 {
@@ -71,6 +72,30 @@
           width: 100%;
         }
       }
+      div:last-child{
+        height: 300px;
+        margin: 0 auto;
+        background-position: center;
+      }
     }
   }
+}
+
+.prices-bowling_img{
+  background: url(../../../assets/img/bowling-prices.png);
+  background-repeat: no-repeat;
+}
+
+.prices-billar_img{
+background: url(../../../assets/img/billar-prices.png);
+  background-repeat: no-repeat;
+}
+.prices-pingpong_img{
+background: url(../../../assets/img/pingpong-prices.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prices-futbolito_img{
+  background: url(../../../assets/img/futbolito-prices.png);
+  background-repeat: no-repeat;
 }

@@ -202,20 +202,17 @@
 
 .img-bar_container {
   width: 50%;
-  img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-  }
+  background: url(../../../assets/img/bar1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .restaurant-img_container {
   width: 50%;
-  img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-  }
+  background: url(../../../assets/img/restaurant1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .bar-container {
