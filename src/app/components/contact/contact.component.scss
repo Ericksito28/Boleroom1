@@ -40,11 +40,17 @@
 }
 .img-contact_cotnainer {
   width: 100%;
-  img {
-    display: block;
-    object-fit: cover;
-    width: 100%;
-  }
+  height: 400px;
+  background: url(../../../assets/img/bowlingC.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  // img {
+  //   display: block;
+  //   object-fit: cover;
+  //   width: 100%;
+  // }
 }
 
 @media screen and (max-width: 992px) {
